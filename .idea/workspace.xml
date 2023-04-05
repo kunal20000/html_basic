@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0eee94-15ba-4046-a381-82edea60fbac" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/HtmlForms/form.css.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HtmlForms/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HtmlForms/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BasicHtml/form.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/BasicHtml/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HtmlForms/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BasicHtml/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +66,22 @@
       <option name="project" value="LOCAL" />
       <updated>1680717022949</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1680717820036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680717820036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
   </component>
 </project>
