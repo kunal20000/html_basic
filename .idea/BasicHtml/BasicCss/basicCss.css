@@ -1,0 +1,36 @@
+/* external css */
+/* element selector */
+aside{
+    background-color: blueviolet;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section,aside{
+   background-color: aqua;
+   font-weight: 100;
+}
+div{
+
+}
+
+p{
+
+}
+
+/* id unique */
+#chat{
+    color: green;
+}
+/* class selector */
+.msg{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* universal selector */
+*{
+    font-size: large;
+}
+
+/* combinator selectors */
+/* Attribute selectors */
+/* pseudo selectors --> pseudo elements, pseudo-class */

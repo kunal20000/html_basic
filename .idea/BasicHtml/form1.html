@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<h3>Forms in HTML</h3>
+<form method="post">
+    <label for="user">Username:</label>
+    <input type="text" id="user" required>
+    <br>
+    <br>
+    <label for="age">Age:</label>
+    <input type="text" id="age">
+    <br><br>
+    <label for="pass">Password:</label>
+    <input type="password" id="pass">
+
+    <br><br>
+    <label for="email">Email</label>
+    <input type="text" name="" id="email">
+    <br><br>
+    <label for="dob">DOB</label>
+    <input type="date" name="" id="dob">
+    <br><br>
+
+    <label for="">Course completion date and time</label>
+    <input type="datetime-local" name="" id="">
+    <br><br>
+
+    <div>Completed assignment</div>
+    <label for="one">One</label>
+    <input type="radio" name="noOfAssignment" id="one">
+    <br>
+    <label for="two">Two</label>
+    <input type="radio" name="noOfAssignment" id="two">
+    <br>
+    <label for="three">Three</label>
+    <input type="radio" name="noOfAssignment" id="three">
+    <br>
+    <br>
+
+    <label for="marks">Marks</label>
+    <input type="range" name="marks" id="marks" min="3" max="50">
+    <br>
+
+    <label for="checkbox">checkbox</label>
+    <input type="checkbox" name="" id="checkbox" checked>
+    <br>
+
+    <label for="age">I agree to terms and conditions of this webpage! </label>
+    <input type="checkbox" name="" id="age" checked>
+    <br>
+
+    <label for="portfolio">Your portfolio</label>
+    <input type="url" name="" id="portfolio">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset" name="" id="">
+
+
+
+
+
+</form>
+<br><br><br>
+<br><br>
+
+<!-- form attributes -->
+<!-- action: url of the server where we want to make a request -->
+<!-- method: get(default) and post -->
+<!-- target: covered in anchor tag() - _blank, _self , .... -->
+
+<form action="https://www.facebook.com" method="post" target="_blank">
+
+
+    <label for="user">Username:</label>
+    <input id="user" type="text" required />
+    <br /><br />
+    <label for="age">Age:</label>
+    <input id="age" type="number" />
+    <br /><br />
+    <label for="pass">Password:</label>
+    <input id="pass" type="password" />
+    <br /><br />
+    <label for="email">Email:</label>
+    <input id="email" type="email" />
+    <br /><br />
+    <input type="submit">
+
+</form>
+<br><br><br>
+
+<form action="">
+    <label for="">Batch</label>
+    <input type="text" value="stark" name="" id="" disabled>
+    <br>
+
+    <label for="time">Time</label>
+    <input id="" type="text" value="9:30" readonly>
+    <br><br>
+
+    <label for="">Feedback</label>
+    <textarea id="feedback" rows="10" cols="50" required autofocus></textarea>
+    <br>
+    <input type="submit" disabled>
+
+    <br>
+    <br>
+    <label for="classTime">Preferred class timing:</label>
+    <select id="classTime" size="5" multiple>
+        <option value="9">selectOne</option>
+        <optgroup label="morning time">
+            <option value="9:10">9:10</option>
+            <option value="10:20">10:20</option>
+        </optgroup>
+        <optgroup label="afternoon time">
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+        </optgroup>
+        <optgroup label="night time">
+            <option value="1:00">1:00pm</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <button type="button" value="mybutton" disabled name="" id="">Login</button>
+    <br>
+    <br>
+    <output for="">8</output>
+    <br>
+    <br>
+
+    <label for="rating">Rating: </label>
+    <input type="number" name="rating" id="rating" min="0" max="5">
+
+    <br>
+    <br>
+    <label for="bookingDate">bookingDate</label>
+    <input type="date" name="" id="bookingDate" min="2023-03-29" max="2023-06-29">
+
+    <label for="username">username</label>
+    <input type="text" name="" id="username" placeholder="type your username...">
+</form>
+
+</body>
+</html>

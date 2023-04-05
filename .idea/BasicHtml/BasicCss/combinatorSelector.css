@@ -1,0 +1,28 @@
+
+/* child selector */
+/*nav > a{
+    color: green;
+    font-weight: 800;
+}*/
+
+/* descdendent selector */
+nav a {
+    color: green;
+    font-weight: 800;
+}
+
+
+
+
+/* sibling selectors */
+
+
+/* general sibling */
+/* aside ~ p {
+    background-color: red;
+} */
+
+/* adjacent sibling */
+aside + p {
+    background-color: red;
+}
