@@ -1,0 +1,17 @@
+/* input[checked]{
+ width: 20px;
+ height: 20px;
+}
+
+input[required]{
+  border: 2px solid red;
+} */
+
+/* pseudo selector */
+
+input:checked{
+    width: 100px;
+    height: 50px;
+    border: 8px solid red;
+}
+
