@@ -1,0 +1,16 @@
+body{
+    padding: 15px;
+}
+
+.outer-div {
+    background-color: rgb(254, 74, 74);
+    padding: 15px;
+}
+
+.inner-div{
+    text-align: center;
+    background-color: white;
+    border: 20px solid;
+    color: rgb(245, 135, 135);
+    padding: 10px;
+}
