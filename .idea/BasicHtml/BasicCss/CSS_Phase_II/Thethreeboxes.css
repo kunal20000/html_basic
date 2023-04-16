@@ -1,0 +1,25 @@
+.box {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.first{
+  background-color: red;
+  color: white;
+}
+
+.second{
+  background-image: url(https://tse3.mm.bing.net/th?id=OIP.cKUrknmpqTLIY3JVxOTh2gHaEo&pid=Api&P=0);
+  background-size: cover;
+  color: white;
+}
+
+.third{
+  background-color: blue;
+  color: white;
+}
