@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.window-container{
+    height: 200px;
+    max-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.window{
+    background-color: rgb(201, 238, 255);
+    border: 2px solid rgb(79, 32, 13);
+}
